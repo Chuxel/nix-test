@@ -1,13 +1,15 @@
 {
 	"name": "Nix test",
-	"image": "ubuntu:jammy",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
 
-	"remoteUser": "vscode",
+	"remoteUser": "devcontainer",
 	
 	"features": {
 		"ghcr.io/devcontainers/features/nix:1": {
 			"version": "latest",
-			"packages": "openssh, git, gnupg, iproute2, procps, lsof, htop, nettools, psmisc, curl, tree, wget, rsync, unzip, bzip2, nano, vim, less, jq, glibc, libgcc, libkrb5, zlib, sudo, ncdu, man-db, strace"
+			"packages": "iproute2, lsof, zsh, htop, nettools, psmisc, tree, wget, rsync, unzip, nano, vim, less, jq, ncdu, man-db, strace"
 		}
 	}
 }
