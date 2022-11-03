@@ -29,7 +29,6 @@ jobs:
       - name: Build image
         uses: devcontainers/ci@v0.2
         with:
-          cacheFrom: ghcr.io/chuxel/nix-test/devcontainer
           imageName: ghcr.io/chuxel/nix-test/devcontainer
           push: always
       
