@@ -2,7 +2,7 @@
 	"name": "Nix test",
 	"build": {
 		"dockerfile": "Dockerfile",
-		"cacheFrom": "ghcr.io/chuxel/devpacks/devcontainer"
+		"cacheFrom": "ghcr.io/chuxel/nix-test/devcontainer"
 	},
 
 	"remoteUser": "devcontainer",
