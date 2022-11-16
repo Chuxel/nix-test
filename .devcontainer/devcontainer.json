@@ -12,5 +12,8 @@
 			"version": "latest",
 			"packages": "iproute2, lsof, htop, nettools, psmisc, tree, wget, rsync, unzip, nano, vim, less, jq, ncdu, man-db, strace"
 		}
+	},
+	"hostRequirements": {
+		"cpus": 4
 	}
 }
