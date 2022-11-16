@@ -10,7 +10,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/nix:1": {
 			"version": "latest",
-			"packages": "iproute2, lsof, htop, nettools, psmisc, tree, wget, rsync, unzip, nano, vim, less, jq, ncdu, man-db, strace"
+			"packages": "zsh, iproute2, lsof, htop, nettools, psmisc, tree, wget, rsync, unzip, nano, vim, less, jq, ncdu, man-db, strace"
 		}
 	},
 	"hostRequirements": {
